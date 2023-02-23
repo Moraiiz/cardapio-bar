@@ -1,0 +1,225 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+:root {
+    --cor01: #F2EFDF;
+    --cor02: #D9B282;
+    --cor03: #BF8756;
+    --cor04: #8C593B;
+    --cor05: #402F25;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+} 
+
+body {
+    background-image: linear-gradient(to bottom, var(--cor01), var(--cor02));
+    font-family: 'Oswald', Arial, Helvetica, sans-serif;
+    margin: auto;
+    max-width: 800px;
+    min-width: 300px;
+    
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor05), var(--cor04));
+    padding: 30px;
+    
+    
+}
+
+header h1 {
+    color: var(--cor01) ;
+    font-family: 'Oswald', Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    text-align: center;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.600);
+}
+
+nav {
+    background-color: var(--cor04);
+    padding: 5px;
+    margin: auto;
+    margin-bottom: 20px;
+    border-bottom: solid 1px var(--cor05);
+}
+
+nav a{
+    color: var(--cor01);
+    padding: 5px 5px 5px 5px;
+    margin: auto;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    font-size: 1.2em;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.600);
+    transition-duration: 0.5s;
+}
+
+nav a:hover {
+    background-color: var(--cor05);
+    color: var(--cor02);
+}
+
+#petisco {
+    background-color: var(--cor05);
+    color: var(--cor02);
+}
+
+#cervejas {
+    background-color: var(--cor05);
+    color: var(--cor02);
+}
+
+#refrigerantes {
+    background-color: var(--cor05);
+    color: var(--cor02);
+}
+
+#drinks {
+    background-color: var(--cor05);
+    color: var(--cor02);
+}
+
+#doses {
+    background-color: var(--cor05);
+    color: var(--cor02);
+}
+
+main div {
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 120px;
+}
+
+main div img {
+    display: block;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin: auto;
+    margin-left: 12px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.600);
+}
+
+main div p {
+    background-color: var(--cor04);
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    color: var(--cor01);
+    font-size: 2em;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.600);
+    margin: auto; 
+    margin-left: 135px;
+    margin-right: 30px; 
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.600);
+    position: relative;
+    bottom: 94px; 
+}
+
+a {
+    text-decoration: none;
+ }
+
+ 
+main a:hover p {
+    background-color: var(--cor05);
+    color: var(--cor02);
+    transition-duration: .5s;
+}
+
+main a:hover img {
+    box-shadow: 0px 0px 30px rgb(0, 0, 0);
+}
+
+table {
+    background-color: var(--cor01);
+    margin: auto;
+    width: 300px;
+    margin-bottom: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.400);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 5px;
+      
+}
+
+table, td {
+    color: var(--cor05);
+    font-size: 1.2em;
+    font-weight: bolder;
+    text-align: justify;
+    
+}
+
+.preco {
+    font-size: 1.2em;
+    text-align: right;
+ }
+
+
+h2 {
+    background-color: var(--cor05);
+    color: var(--cor02);
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    font-size: 1.8em;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.600);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.400) ;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#voltar {
+    background-color: var(--cor04);
+    color: var(--cor01);
+    margin-top: 50px;
+    margin-left: 15px;
+    display: inline-block;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.600);
+    
+    text-align: center;
+    font-size: 44px;
+    font-weight: bold;
+}
+
+main a:hover #voltar {
+    background-color: var(--cor05);
+    color: var(--cor02);
+}
+
+footer {
+    background-color: var(--cor05);
+    padding: 10px 0px 10px 0px;
+}
+
+footer p {
+    color: var(--cor02);
+    font-size: smaller;
+    text-align: center;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
