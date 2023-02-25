@@ -198,7 +198,7 @@ main a:hover #voltar {
 
 footer {
     background-color: var(--cor05);
-    padding: 10px 0px 10px 0px;
+    padding: 10px 0px 0px 0px;
 }
 
 footer p {
@@ -216,6 +216,18 @@ footer p {
         width: 300px;
     }
 }
+
+footer .github {
+    margin-top: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+footer div {
+    text-align: center;
+    
+}
+
 
 
 
